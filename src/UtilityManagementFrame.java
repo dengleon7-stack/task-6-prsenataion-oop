@@ -26,7 +26,7 @@ public class UtilityManagementFrame extends JFrame {
         tabbedPane = new JTabbedPane(JTabbedPane.TOP, JTabbedPane.SCROLL_TAB_LAYOUT);
         tabbedPane.addTab("Electricity", new ElectricityPanel());
         tabbedPane.addTab("Water", new WaterPanel());
-        tabbedPane.addTab("Waste Collection", new WastePanel());
+        tabbedPane.addTab("Complaints & Feedback", new ComplaintsPanel());
         tabbedPane.addTab("Complaints", new ComplaintsPanel());
         tabbedPane.addTab("Billing", new BillingPanel());
         tabbedPane.addTab("Why Tabs?", new JustificationPanel());
