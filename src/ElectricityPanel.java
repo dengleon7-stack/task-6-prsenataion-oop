@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
+// Electricity feature branch
 public class ElectricityPanel extends JPanel {
 
     private final JTextField customerIdField = new JTextField(15);
