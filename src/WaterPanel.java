@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
+// Water feature
 public class WaterPanel extends JPanel {
 
     private final JTextField customerIdField = new JTextField(15);
