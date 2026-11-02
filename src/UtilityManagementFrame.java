@@ -25,7 +25,7 @@ public class UtilityManagementFrame extends JFrame {
         // Tabbed pane: one tab per operational area, all in ONE window
         tabbedPane = new JTabbedPane(JTabbedPane.TOP, JTabbedPane.SCROLL_TAB_LAYOUT);
         tabbedPane.addTab("Electricity", new ElectricityPanel());
-      tabbedPane.addTab("Waste Services", new WastePanel());
+        tabbedPane.addTab("Waste Services", new WastePanel());
         tabbedPane.addTab("Waste Collection", new WastePanel());
         tabbedPane.addTab("Complaints", new ComplaintsPanel());
         tabbedPane.addTab("Billing", new BillingPanel());
